@@ -1,0 +1,36 @@
+.exemplo{
+    width: auto;
+    height: auto;
+    border: 1px solid black;
+}
+
+.verde{
+    background-color: green;
+}
+
+.vermelho{
+    background-color: red;
+    grid-row: 2/4; 
+    grid-column: 3/10;
+    
+}
+
+.azul{
+    background-color: blue;
+}
+
+.amarela{
+    background-color: yellow;
+}
+
+.roxa{
+    background-color: purple;
+}
+
+.pai{
+    display: grid;
+    /* define a quantidade de colunas */
+    grid-template-columns: repeat(12, 100px);
+    grid-template-rows: repeat(4, 200px);
+    /* define a quantidade de linhas */
+}
